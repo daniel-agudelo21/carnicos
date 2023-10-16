@@ -1,0 +1,50 @@
+.container{
+    
+    justify-content: space-between;
+    width: 95%;
+    margin: 50px 0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+}
+.nombre_logo{
+    display:inline-flex;
+    color: #0074fe;
+    align-items: center;
+    
+}
+
+
+.logoCircle{
+    margin-left: 20px;
+    width: 60px; 
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0074fe;
+    color: white;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.avance{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 40px;
+    margin-top: -30px;
+    
+}
+
+
+.numero{
+    color: rgb(0, 228, 0);
+    font-weight: lighter;
+}
+
+.span{
+    margin-left: 90%;
+    cursor: pointer;
+    
+}
+

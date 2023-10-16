@@ -1,0 +1,38 @@
+.nombre_logo{
+    display:inline-flex;
+    align-items: center;
+}
+.logoCircle{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+td {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.411);
+}
+
+.boton{
+    text-align: center;
+}
+
+.button{
+    
+    width: 100px;
+    height: 30px;
+    /* margin-right: 20px; */
+    border-radius: 5px;
+    border: none;
+    background-color: #0074fe;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.363);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+

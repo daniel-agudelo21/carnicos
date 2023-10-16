@@ -1,0 +1,18 @@
+.avance{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.progress{
+    width: 70%;
+}
+
+
+.primero{
+    color: grey;
+}
+
+.tr{
+    margin-bottom: 30px;
+}

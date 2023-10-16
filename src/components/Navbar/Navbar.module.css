@@ -1,0 +1,31 @@
+.navbar{
+
+}
+
+.title{
+    color: #0074fe;
+    font-size: 40px;
+}
+.line{
+    width: 5%;
+    display: inline-block;
+    height: 10px;
+    background-color: #0074fe;
+    border-radius: 8px;
+}
+.rutes{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.ruteActive {
+    font-weight: bold; 
+    text-decoration: none;
+    
+}
+.rute {
+    
+    text-decoration: none;
+    
+}

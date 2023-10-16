@@ -1,0 +1,29 @@
+.busqueda{
+    width: 20%;
+    height: 33px;
+    padding-left: 12px;
+    flex-shrink: 0;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    
+}
+
+.button {
+    border: 1px solid transparent;
+    padding: 4px 8px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: #0074fe;
+    cursor: pointer;
+    align-self: center; /* Alinea verticalmente el botón al centro del contenedor */
+    margin-left: -1px;
+    vertical-align: middle;
+    margin-top: -1px;
+    transition: border-color 0.25s;
+}
+
+.button:hover {
+    border-color: #2F3544;
+    transform: scale(1.02);
+}
